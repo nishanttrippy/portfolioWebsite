@@ -203,7 +203,12 @@ I've been designing and coding since I was 12, and I thoroughly enjoy doing thos
 <div class="contact">
 <h1>Contact</h1>
 
-<form action="post">
+<form action="phpMailHandler.php" method="post">
+
+	<input type=hidden name=action value=sendAlert>
+
+	<label for="name">E-mail:</label><br><br>
+	<input type="text" name="email" id="email">
 	<label for="name">Name:</label><br><br>
 	<input type="text" name="name" id="name">
 	<br><br>
@@ -214,6 +219,10 @@ I've been designing and coding since I was 12, and I thoroughly enjoy doing thos
 	<textarea name="body" id="body" cols="30" rows="10"></textarea>
 	<br><br>
 	<input type="submit" value="Send mail">
+
+	<input id=urlActionCompleted type=hidden name=urlActionCompleted value=formCompleted.html>
+
+  <input id=urlActionFailed type=hidden name=urlActionFailed value=formFailed.html>
 
 </form>
 
