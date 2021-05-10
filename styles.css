@@ -210,10 +210,16 @@ input {
   width: 80%;
   height: 50px;
   color: white;
+  font-weight: bold;
   background-color: rgba(30,8,44,1);
   border: none;
   font-family: 'Poppins';
   border-bottom: 3px solid white;
+}
+
+input[type=submit] {
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 textarea {
