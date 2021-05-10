@@ -51,7 +51,7 @@
 		// prepare a mail message
 		$messageBody = "
 
-		<div style='background-color: rgb(33, 8, 44); color: white; width: 100%; height: 100%'>
+		<div style='background-color: rgb(33, 8, 44); color: white; width: 100%; height: 100%; border-radius: 50px; padding: 10%'>
 		<h1>Received Email!</h1>
 		<p><img src=logo.png>
 		<h2>Someone named $userName submitted a quiz</h2>
