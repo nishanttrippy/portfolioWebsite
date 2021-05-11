@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: white;
   background-image: url('bg-01.png');
@@ -143,7 +147,7 @@ path {
 }
 
 .about {
-  height: 20vh;
+  height: 25vh;
   background:rgba(30,8,44,1);
   padding: 5% 15% 10% 15%;
 }
